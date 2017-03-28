@@ -29,11 +29,22 @@ console.log(complimentPerson("Danielle"));
 
 //3. 99 Bottles of Beer
 
-//for loop
+// //for loop
 for (var i = 99; i > 0; i--) {
 	var nextBottle = i-1;
-	console.log(i + " bottles of beer on the wall, " + i + " bottles of beer..." + "\n" + "Take one down, pass it around, " + nextBottle + " bottles of beer on the wall!" );
+	console.log(i + " bottles of beer on the wall, " + i + " bottles of beer..." + "\n" + "Take one down, pass it around, " + nextBottle + " bottles of beer on the wall!");
 }
 
 
 //while loop
+var bottles = 99;
+while (bottles > 0) {
+	var nextBottle = bottles - 1;
+	console.log(bottles + " bottles of beer on the wall, " + bottles + " bottles of beer..." + "\n" + "Take one down, pass it around, " + nextBottle + " bottles of beer on the wall!");
+	bottles--;
+}
+
+
+
+
+
