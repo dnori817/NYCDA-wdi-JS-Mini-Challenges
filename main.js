@@ -35,7 +35,6 @@ for (var i = 99; i > 0; i--) {
 	console.log(i + " bottles of beer on the wall, " + i + " bottles of beer..." + "\n" + "Take one down, pass it around, " + nextBottle + " bottles of beer on the wall!");
 }
 
-
 //while loop
 var bottles = 99;
 while (bottles > 0) {
@@ -46,5 +45,20 @@ while (bottles > 0) {
 
 
 
+
+//4. Backwards Array
+
+function reverseArray(arr) {
+	var arrIndex = arr.length-1;
+	for (var i = arrIndex; i >= 0; i--) {
+		console.log(arr[i]);
+	}
+
+}
+
+//array of NL East teams in alphabetical order
+var nlEast = ["Braves", "Marlins", "Mets", "Nationals", "Phillies"]
+
+reverseArray(nlEast);
 
 
